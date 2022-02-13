@@ -1,7 +1,7 @@
-<script setup lang="ts">
+<script setup >
 import { useUserStore } from '~/stores/user'
 
-const props = defineProps<{ name: string }>()
+const props = defineProps()
 const router = useRouter()
 const user = useUserStore()
 const { t } = useI18n()
